@@ -1,0 +1,27 @@
+version: 0.0
+os: linux
+files:
+- source: /wp-content/vma
+  destination: /var/www/html/wp-content/vma
+# permissions:
+# - object: /var/www/html/avatar/wp-content
+#  pattern: "*"
+#  owner: ec2-user
+#  group: apache
+#  mode: 664
+# type:
+#  - file
+# - object: /var/www/html/avatar/wp-content
+#  pattern: "*"
+#  owner: ec2-user
+#  group: apache
+#  mode: 775
+# type:
+#  - directory
+# hooks:
+#   BeforeInstall:
+#     - location: /home/ec2-user/scripts/BeforeInstall_cleanup.sh
+#       timeout: 120
+#       runas: ec2-user 
+
+#Trigger deployment in pre-prod
