@@ -1,3 +1,3 @@
 <?php
-echo "Test VMA"
+echo "Test VMA :)"
 ?>
